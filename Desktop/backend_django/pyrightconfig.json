@@ -1,0 +1,22 @@
+{
+  "include": [
+    "api",
+    "music_streaming"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/migrations",
+    "venv"
+  ],
+  "ignore": [
+    "**/migrations"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportAttributeAccessIssue": false,
+  "reportIncompatibleVariableOverride": false,
+  "reportIncompatibleMethodOverride": false,
+  "pythonVersion": "3.11",
+  "pythonPlatform": "All"
+}
